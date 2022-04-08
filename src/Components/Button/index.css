@@ -1,0 +1,11 @@
+.button_geral {
+  color: white;
+  background-color: #27ae60;
+  border: 2px solid #27ae60;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 9px 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
