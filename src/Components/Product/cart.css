@@ -1,0 +1,134 @@
+.container_cart {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_cart-tittle {
+  background-color: #27ae60;
+  border-radius: 5px 5px 0px 0px;
+  width: 384px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_cart-tittle h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.container_cart-vazio {
+  background-color: #f5f5f5;
+  border-radius: 0px 0px 5px 5px;
+  width: 384px;
+  height: 158px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container_cart-vazio h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333333;
+  margin: 56px 0 17px;
+}
+
+.container_cart-vazio p {
+  color: #828282;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.container_cart-cheio {
+  background-color: #f5f5f5;
+  border-radius: 0px 0px 5px 5px;
+  width: 384px;
+}
+
+.container_cart-li {
+  font-family: "Inter", sans-serif;
+  list-style: none;
+  display: flex;
+}
+
+.container_cart-li figure {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_cart-li img {
+  max-width: 70px;
+}
+
+.container_cart-li figcaption {
+  display: none;
+}
+
+.container_cart-li span {
+  display: none;
+}
+
+.container_cart-li .container_name {
+  margin-left: 10px;
+}
+
+.container_cart-li h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.container_cart-li small {
+  font-weight: 400;
+  font-size: 12px;
+  color: #828282;
+}
+
+.container_cart-li button {
+  color: #bdbdbd;
+  background-color: transparent;
+  border: none;
+}
+
+.container_cart-cheio-total {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .container_cart-tittle {
+    width: 28vw;
+    height: 10vh;
+  }
+
+  .container_cart-vazio {
+    width: 28vw;
+    height: 25vh;
+  }
+
+  .container_cart-vazio h2 {
+    margin: 9vh 0 2vh;
+  }
+
+  .container_cart-li figure {
+    width: 5.85vw;
+    height: 12.8vh;
+  }
+
+  .container_cart-li img {
+    max-width: 5.12vw;
+  }
+
+  .container_cart-cheio {
+    width: 28vw;
+  }
+}

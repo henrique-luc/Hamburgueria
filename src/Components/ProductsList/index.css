@@ -1,0 +1,13 @@
+.container_card-produtos {
+  display: flex;
+  overflow: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container_card-produtos {
+    flex-wrap: wrap;
+    overflow: none;
+    width: 68vw;
+    margin: 5vh 0 0 4.4vw;
+  }
+}

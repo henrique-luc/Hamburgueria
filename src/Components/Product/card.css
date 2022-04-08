@@ -1,0 +1,83 @@
+.container_card-li {
+  list-style: none;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 300px;
+  height: 346px;
+  margin: 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  font-family: "Inter", sans-serif;
+}
+
+.container_card-li section {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_card-li figure {
+  background-color: #f5f5f5;
+  width: 295px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.container_card-li h2 {
+  margin: 26.6px 0 14px 21px;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.container_card-li small {
+  color: #828282;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0 0 14px 21px;
+}
+
+.container_card-li span {
+  color: #27ae60;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 0 28px 21px;
+}
+
+.container_card-li button {
+  margin-left: 21px;
+}
+
+.container_card-li img {
+  max-height: 150px;
+}
+
+.container_card-li figcaption {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container_card-li {
+    width: 22vw;
+    height: 55.3vh;
+    margin-right: 1.46vw;
+    margin: 0 0.8vw 1.9vh;
+  }
+
+  .container_card-li figure {
+    height: 24vh;
+    width: 21.7vw;
+  }
+
+  .container_card-li img {
+    width: 13vw;
+  }
+
+  .container_card-li img {
+    max-height: 24vh;
+  }
+}
