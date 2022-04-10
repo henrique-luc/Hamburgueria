@@ -52,6 +52,7 @@ function App() {
           currentSale={currentSale}
           handleClick={handleClickRemove}
           children={"Remover"}
+          handleClickRemoveAll={handleClickRemoveAll}
         />
       </main>
     </div>

@@ -21,17 +21,17 @@ const Cart = ({ currentSale, handleClick, children, handleClickRemoveAll }) => {
         </section>
       ) : (
         <div className="container_cart-cheio">
-          <section className="">
+          <section className="container_cart-add-products">
             <ProductList
               filteredProducts={currentSale}
               handleClick={handleClick}
               children={children}
             />
           </section>
-          <section className="">
-            <div className="container_cart-cheio-total">
+          <section className="container_cart-cheio-total">
+            <div className="container_cart-cheio-total-soma">
               <h3>Total</h3>
-              <span>R$ {totalValue()}</span>
+              <span>R$ {totalValue().toFixed(2)}</span>
             </div>
             <button onClick={() => handleClickRemoveAll()}>
               Remover todos
