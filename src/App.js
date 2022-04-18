@@ -27,7 +27,11 @@ function App() {
 
   function handleClick(productId) {
     const filtered = products.find((product) => product.id === productId);
-    setCurrentSale([...currentSale, filtered]);
+    const checkProduct = currentSale.find(
+      (product) => product.id === productId
+    );
+
+    !checkProduct && setCurrentSale([...currentSale, filtered]);
   }
 
   function handleClickRemove(productId) {
